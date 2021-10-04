@@ -12,6 +12,7 @@
 		622EF3D220EFF6CA000E4C49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622EF3D020EFF6CA000E4C49 /* Main.storyboard */; };
 		622EF3D420EFF6CC000E4C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622EF3D320EFF6CC000E4C49 /* Assets.xcassets */; };
 		622EF3D720EFF6CC000E4C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622EF3D520EFF6CC000E4C49 /* LaunchScreen.storyboard */; };
+		622EF3DF20EFF7B2000E4C49 /* MyContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622EF3DE20EFF7B2000E4C49 /* MyContacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		622EF3D320EFF6CC000E4C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		622EF3D620EFF6CC000E4C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		622EF3D820EFF6CC000E4C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622EF3DE20EFF7B2000E4C49 /* MyContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				622EF3CC20EFF6CA000E4C49 /* AppDelegate.swift */,
 				622EF3CE20EFF6CA000E4C49 /* ViewController.swift */,
+				622EF3DE20EFF7B2000E4C49 /* MyContacts.swift */,
 				622EF3D020EFF6CA000E4C49 /* Main.storyboard */,
 				622EF3D320EFF6CC000E4C49 /* Assets.xcassets */,
 				622EF3D520EFF6CC000E4C49 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				622EF3CF20EFF6CA000E4C49 /* ViewController.swift in Sources */,
 				622EF3CD20EFF6CA000E4C49 /* AppDelegate.swift in Sources */,
+				622EF3DF20EFF7B2000E4C49 /* MyContacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RX5VUTPWS;
 				INFOPLIST_FILE = HelloContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RX5VUTPWS;
 				INFOPLIST_FILE = HelloContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
